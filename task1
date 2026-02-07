@@ -1,0 +1,8 @@
+// santax are ruls the we have to folow ex(we always start with main)
+// remembaring () and {} and always having a ; in the end to avoind errors
+// block dart we have a start and an end and any thing in is what we say inside the block 
+// print you always have to type it befor the thing you want to print
+// Data typs (Numbers,string.boolean,list,maps)
+// variabls holds data and value
+// string concatenation is when we add + in the midle of 2 names for example
+// string interpolation is when we add $ 
