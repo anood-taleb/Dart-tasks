@@ -1,0 +1,72 @@
+// void main(){
+//   String name=("anood");
+//   print(name);
+// }
+// void main(){
+//   int age=8;
+//   print(age);
+
+// }
+// void main(){
+//   String city="irbid";
+//   print(city);
+// }
+// void main(){
+//   String name="anood";
+//   int age=5;
+//   print(name);  print(age);
+// }
+// void main(){
+//   String world="dart";
+//   print(world.length);
+// }
+// void main(){
+//   String text="";
+//   print(text.isNotEmpty);
+
+// }
+// void main(){
+//   String name="                          Hi";
+//   String trimed=name.trim();
+//   String up=trimed.toLowerCase();
+//   print(up);
+//   print(up.length);
+
+// }
+// void main(){
+//     String name ="Dart";
+//     print(name.length);
+// }
+import 'dart:developer';
+import 'dart:io';
+
+
+// void main() {
+//   String text = "";
+
+//   if (text.isEmpty) {
+//     print("Empty");
+//   } else {
+//     print("Not Empty");
+//   }
+// }
+// void main() {
+// int num=7;
+// if (num.isEven)
+// { 
+//     print('even');
+// } 
+// else {
+//     print("not");
+// }
+
+// }
+
+//
+import 'dart:io';
+
+void main() {
+  print("Enter your name:");
+  String name = stdin.readLineSync()!;
+  print("Hello:$name);
+}
