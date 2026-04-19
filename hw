@@ -1,0 +1,78 @@
+// void main(){
+//   String name="Alanood";
+//   double grade1=90;
+//   double grade2=70;
+//   double grade3=81;
+//   bool extraPoints=true;
+  
+//   double average=(grade1+grade2+grade3)/3;
+// <=
+
+// if (extraPoints) {
+//   average += 5;
+// }
+
+// String result;
+//   if (average >= 90) {
+//     result = "Excellent";
+//   } else if (average >= 75) {
+//     result = "Good";
+//   } else if (average >= 50) {
+//     result = "Pass";
+//   } else {
+//     result = "Fail";
+//   }
+
+//    print("Student: " + name);
+//   print("Average: " + average.toStringAsFixed(0));
+//   print("Final Average: " + average.toStringAsFixed(0));
+//   print("Result: " + result);
+// }
+// import 'dart:io';
+
+// void main(){
+//           int sum=0;
+
+//   print("The natural numers are:");
+//       for(int i = 1 ; i<=10; i++){
+//         stdout.write("$i ");
+//       sum+=i;
+
+//       }
+//             print("\nThe sum of the first natural numbers : $sum");
+    
+
+// }
+import 'dart:io';
+
+// void main(){
+//   stdout.write("input the number of the character:");
+//   int n= int.parse(stdin.readLineSync()!);
+//   void main(){
+//     print("please enter your number");
+//  int n= int.parse(stdin.readLineSync()!);
+//   for (int a=1; a<=n;a++)
+//   { for (int i=1; i<=n; i++)
+//   { 
+//    stdout.write("# ");}
+//    print("");
+//    }
+//   }
+void main(){
+  print("The perfect numbers between 1 to 500 are:");
+  for (int n=1;n<=500;n++){
+    int result=0;
+    
+    for(int i=1;i<n;i++){
+      if (n % i==0){
+      result += i;
+      }
+    }
+    
+    if(result==n){
+      stdout.write("$n  ");
+    }
+
+  }
+
+}
